@@ -1,0 +1,214 @@
+<style>
+    body{
+        margin:0px;
+    }
+    .main{
+        height:100vh;
+    }
+    .header{
+        background: rgb(228, 132, 180);
+        min-height:40px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 30px;
+    }
+    
+    .header>img{
+        width:80px;height:60px;
+    }
+    .header>a{
+        text-decoration: none;
+        font-size:2rem;
+    }
+    .nav{
+        background:lightcyan;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav>ul{
+        list-style-type: none;
+        display: flex;
+    }
+    .nav>ul>li{
+        padding:0px 30px;
+        font-size:20px;
+        text-transform: uppercase;
+    }
+    .container{
+        display:flex;
+        height:435px;
+
+    } 
+    .container1{
+        background:cadetblue;
+        width:70%;
+        display:flex;
+        align-items: center;
+        justify-content:space-evenly;
+        float:left;
+        height:435px;
+
+    }
+    .container1>.item{
+        width:100px;
+        height:150px;
+        border:1px solid gainsboro;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        color:ghostwhite;
+        
+    }
+    .container2{
+        background: papayawhip;
+        width:30%;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        float:right;
+
+    }
+    .footer{
+        display:flex;
+        font-size: 25px;
+        text-transform:uppercase; 
+        justify-content: center;
+        align-items: center;
+        background: rgb(236, 114, 175);
+        height:40px;
+    }
+    @media only screen and (max-width:800px) {
+        body{
+        margin:0px;
+    }
+    .main{
+        height:100vh;
+    }
+    .header{
+        background: rgb(228, 132, 180);
+        min-height:40px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 30px;
+    }
+    
+    .header>img{
+        width:80px;height:60px;
+    }
+    .header>a{
+        text-decoration: none;
+        font-size:2rem;
+    }
+    
+    .body{
+        display:flex;
+    }
+    .nav{
+      background: mediumorchid;
+      width:15%;
+      text-align:center;
+      height:350px;
+    
+    }
+    .nav ul{
+        list-style-type:none;
+        display:block;
+        padding-left: 0px;
+
+    }
+    .nav ul li{
+        text-transform:uppercase;
+        padding:20px 10px;
+        font-size:10px;
+        
+    }
+    .container{
+        display:inline-block;
+    }
+       .container1{
+        background: thistle;
+        padding:20px 0px;
+        width: 600px;
+        height:310px;
+
+
+    }
+    .container1>.item{
+        width:60px;
+        border:1px solid gainsboro;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        color:ghostwhite;
+        height:200px ;
+        margin-left: 5px;
+
+    }
+    .container2{
+        background: papayawhip;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        margin-left:-190px;
+        width: 119%;
+        height:120px;
+    }
+    .footer{
+        margin-top:35px;
+        display:flex;
+        font-size: 25px;
+        text-transform:uppercase; 
+        justify-content: center;
+        align-items: center;
+        background: rgb(236, 114, 175);
+        height:40px;
+    }
+    }
+
+</style>
+
+
+<div class="main">
+    <div class="header">
+        <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        <h1>welcome to VBM</h1>
+        <a href="#">logout</a>
+    </div>
+    <div class="body">
+        <div class="nav">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>services</li>
+                <li>contact</li>
+            </ul>
+        </div>
+         <div class="container"> 
+           <div class="container1">
+              <div class="item">
+                  1
+              </div>
+              <div class="item">
+                    2
+                </div>
+              <div class="item">
+                        3
+                </div>
+              <div class="item">
+                        4
+                </div>
+              <div class="item">
+                        5
+                </div>
+           </div>
+           <div class="container2">
+              <h1>container2</h1>                
+           </div>
+       </div>
+    </div>
+    <div class="footer">footer</div>
+</div>
